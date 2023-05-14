@@ -11,7 +11,6 @@ const {chromium} = require('playwright');
     await page.press('.new-todo' , 'Enter', )
     await page.fill('.new-todo', 'Task 2')
     await page.press('.new-todo' , 'Enter', )
-
     await page.check('.toggle')
 
 
